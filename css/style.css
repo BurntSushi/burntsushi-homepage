@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #cbccd3;
+  height: 100%;
+}
+
+a {
+  color: #4578AB;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #AB8043;
+}
+
+div#container {
+  width: 860px;
+  min-height: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+div#container2 {
+  padding: 10px 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 200%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+h4 {
+  font-size: 130%;
+}
+
+h3, h4 {
+  margin-bottom: 0;
+}
+
+header {
+  display: block;
+  clear: both;
+}
+
+header ul {
+  margin: 10px 0 10px 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+  header ul li {
+    float: left;
+    display: block;
+    margin: 0 15px 10px 0;
+  }
+
+header hr, footer hr {
+  clear: both;
+  background-color: #7AA0C5;
+  /* width: 10px; */
+  height: 3px;
+  margin: 30px 0 5px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+.citation {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.6em;
+}
+
+.code, code {
+  font-family: monospace;
+  background: #f6f3f6;
+  border: 1px solid #000;
+  padding: 2px;
+}
+
+.code {
+  white-space: nowrap;
+}
+
+code {
+  display: block;
+  padding: 0.5em;
+}
+
+code.command {
+  padding: 0.5em 0.5em 0.5em 7em;
+  text-indent: -6.5em;
+  line-height: 1.7em;
+}
+
+ul li ul {
+  margin: 0 0 8px 0;
+}
+
+dl {
+  margin-bottom: 0;
+}
+
+  dl dd {
+    margin-bottom: 10px;
+  }
+
