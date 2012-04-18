@@ -1,12 +1,9 @@
-<?php require_once('includes/header.php'); ?>
+<?php
+require_once('header.php');
+$NAV = 'x11';
+?>
 
-<h3>Repositories</h3>
-
-<ul>
-  <li><a href="http://github.com/BurntSushi/wingo">Wingo</a></li>
-  <li><a href="http://github.com/BurntSushi/xgbutil">XGB Util</a></li>
-  <li><a href="http://code.google.com/p/jamslam-x-go-binding">XGB</a></li>
-</ul>
+<h3>Wingo</h3>
 
 <p>This is some content. This is some content. This is some content. This is 
 some content. This is some content. This is some content. This is some content. 
@@ -31,5 +28,5 @@ content. This is some content. This is some content. This is some content. This
 is some content. This is some content. This is some content. This is some 
 content.</p> 
 
-<?php require_once('includes/footer.php'); ?>
+<?php require_once('footer.php'); ?>
 

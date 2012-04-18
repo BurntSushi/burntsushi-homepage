@@ -1,5 +1,11 @@
 <?php
 
+if (gethostname() == 'Ocelot') {
+  $BASE = '/homepage';
+} else {
+  $BASE = '/';
+}
+
 function gopkgdoc($repo) {
   return "https://gopkgdoc.appspot.com/pkg/$repo";
 }
@@ -18,23 +24,16 @@ function gopkgdoc($repo) {
         of Google's official x-go-binding.">
   <meta name="viewport" content="width=device-width">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/print.css">
+  <link rel="stylesheet" href="<?=$BASE?>/css/normalize.css">
+  <link rel="stylesheet" href="<?=$BASE?>/css/style.css">
+  <link rel="stylesheet" href="<?=$BASE?>/css/print.css">
 </head>
 <body>
   <div id="container"><div id="container2">
   <header>
-    <h1>Andrew Gallant's Go Projects</h1>
-
-    <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="<?=gopkgdoc('github.com/BurntSushi/wingo')?>">Wingo Docs</a></li>
-      <li><a href="<?=gopkgdoc('github.com/BurntSushi/xgbutil')?>">XGB Util Docs</a></li>
-      <li><a href="<?=gopkgdoc('code.google.com/p/jamslam-x-go-binding')?>">XGB Docs</a></li>
-    </ul>
-
+    <h1>Andrew Gallant</h1>
     <hr>
   </header>
-  <div role="main">
+  <div id="content-cont">
+    <div id="content" role="main">
 
