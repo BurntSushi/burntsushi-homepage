@@ -3,7 +3,7 @@
 if (gethostname() == 'Ocelot') {
   $BASE = '/homepage';
 } else {
-  $BASE = '/';
+  $BASE = '';
 }
 
 function gopkgdoc($repo) {
