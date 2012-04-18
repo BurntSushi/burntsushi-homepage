@@ -1,5 +1,5 @@
 <?php
-require_once('header.php');
+require_once('homepage_header.php');
 $NAV = 'x11';
 ?>
 
@@ -28,5 +28,5 @@ content. This is some content. This is some content. This is some content. This
 is some content. This is some content. This is some content. This is some 
 content.</p> 
 
-<?php require_once('footer.php'); ?>
+<?php require_once('homepage_footer.php'); ?>
 

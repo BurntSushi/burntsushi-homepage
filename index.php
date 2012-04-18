@@ -1,4 +1,4 @@
-<?php require_once('includes/header.php'); ?>
+<?php require_once('homepage_header.php'); ?>
 
 <h3>Repositories</h3>
 
@@ -31,5 +31,5 @@ content. This is some content. This is some content. This is some content. This
 is some content. This is some content. This is some content. This is some 
 content.</p> 
 
-<?php require_once('includes/footer.php'); ?>
+<?php require_once('homepage_footer.php'); ?>
 

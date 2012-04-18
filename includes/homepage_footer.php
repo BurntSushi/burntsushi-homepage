@@ -1,6 +1,6 @@
 <?php
 
-require_once('navs.php');
+require_once('homepage_navs.php');
 if (!isset($NAV)) {
   $NAV = 'home';
 }
