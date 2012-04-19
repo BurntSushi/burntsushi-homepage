@@ -20,6 +20,7 @@ if (!isset($NAV)) {
   </div>
 
   <footer>
+    <p>Doubt everything. Find your own light.</p>
   </footer>
   </div></div>
 </body>

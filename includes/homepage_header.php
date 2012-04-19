@@ -6,8 +6,14 @@ if (gethostname() == 'Ocelot') {
   $BASE = '';
 }
 
-function gopkgdoc($repo) {
-  return "https://gopkgdoc.appspot.com/pkg/$repo";
+function url($url) {
+  return $BASE . '/' . $url;
+}
+
+function aurl($name, $url) {
+  global $BASE;
+
+  return '<a href="' . $BASE . '/' . $url . '">' . $name . '</a>';
 }
 
 ?><!doctype html>
@@ -17,11 +23,12 @@ function gopkgdoc($repo) {
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="iso-8859-1">
-  <title>Andrew Gallant's Go Projects</title>
-  <meta name="description" content="Go projects developed by Andrew Gallant.
-        They include Wingo, a fully-featured windowmanager; XGB Util, a utility
-        library making some things in X easier to bear; and XGB, which is a clone
-        of Google's official x-go-binding.">
+  <title>Andrew Gallant</title>
+  <meta name="description"
+        content="Andrew Gallant's homepage. I'm a Ph.D. student in the
+          Computer Science department at Tufts University. My advisor is
+          Lenore Cowen. Broadly speaking, my research interest is in
+          Computational Biology.">
   <meta name="viewport" content="width=device-width">
 
   <link rel="stylesheet" href="<?=$BASE?>/css/normalize.css">

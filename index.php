@@ -1,35 +1,21 @@
 <?php require_once('homepage_header.php'); ?>
 
-<h3>Repositories</h3>
+<h2>About Me</h2>
+<p>I am a Ph.D. student in the Computer Science department at Tufts University. 
+   My advisor is <a href="http://www.cs.tufts.edu/~cowen/">Lenore Cowen</a>.
+   In general, my <?=aurl('research interests', 'research.php');?> are focused 
+   on computational biology. I am still searching for a narrower focus, but
+   I have recently worked on projects involving genetic interaction networks,
+   protein fragment libraries and remote homology detection.</p>
 
-<ul>
-  <li><a href="http://github.com/BurntSushi/wingo">Wingo</a></li>
-  <li><a href="http://github.com/BurntSushi/xgbutil">XGB Util</a></li>
-  <li><a href="http://code.google.com/p/jamslam-x-go-binding">XGB</a></li>
-</ul>
-
-<p>This is some content. This is some content. This is some content. This is 
-some content. This is some content. This is some content. This is some content. 
-This is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content. This is some content. This is some content. This is some content. This 
-is some content. This is some content. This is some content. This is some 
-content.</p> 
+<p>I am a
+   <a href="http://en.wikipedia.org/wiki/Hacker_(hobbyist)">programmer</a>
+   first. My current weapons of choice are Python, Go
+   and <?=aurl('Haskell', 'http://www.xent.com/pipermail/fork/Week-of-Mon-20070219/044101.html')?>.
+   I have worked on many different kinds of projects, from
+   web applications to X11 window managers. More recently, building an
+   <?=aurl('X11 window manager', 'x11');?> with good multi-head, tiling and
+   floating support has been an obsession.</p>
 
 <?php require_once('homepage_footer.php'); ?>
 
