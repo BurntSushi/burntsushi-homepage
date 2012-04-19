@@ -10,8 +10,7 @@
    era.</p>
 
 <p>I enjoy cigar smoking, cheeseburgers, beer drinking and debating people on 
-   the Internet (sometimes all at once). I am an atheist and strongly believe in
-   <a href="http://en.wikipedia.org/wiki/Voluntaryism">free association</a>.</p>
+   the Internet (sometimes all at once).</p>
 
 <p>I currently live with my girlfriend, Kaitlyn Brady, in Westborough, MA.</p>
 
