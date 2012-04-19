@@ -9,8 +9,8 @@
    Patriots fan and eagerly await another Super Bowl in the Brady/Belichick
    era.</p>
 
-<p>I enjoy cigar smoking, beer drinking and debating people on the
-   Internet (sometimes all at once). I am an atheist and strongly believe in
+<p>I enjoy cigar smoking, cheeseburgers, beer drinking and debating people on 
+   the Internet (sometimes all at once). I am an atheist and strongly believe in
    <a href="http://en.wikipedia.org/wiki/Voluntaryism">free association</a>.</p>
 
 <p>I currently live with my girlfriend, Kaitlyn Brady, in Westborough, MA.</p>
