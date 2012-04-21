@@ -11,6 +11,7 @@ if (!isset($NAV)) {
     <div id="nav">
       <ul>
         <li><a href="<?=$BASE?>/index.php">Home</a></li>
+        <li><a href="http://blog.burntsushi.net">Blog</a></li>
         <?php foreach ($navs[$NAV] as $name => $url): ?>
           <li><a href="<?=$url?>"><?=$name?></a></li>
         <?php endforeach; ?>
