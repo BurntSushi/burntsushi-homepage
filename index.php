@@ -9,7 +9,7 @@
    protein fragment libraries and remote homology detection.</p>
 
 <p>I am a
-   <a href="http://en.wikipedia.org/wiki/Hacker_(hobbyist)">programmer</a>
+   <a href="http://en.wikipedia.org/wiki/Hacker_(hobbyist)">programmer</a>.
    My current weapons of choice are Python, Go
    and <?=aurl('Haskell', 'http://www.xent.com/pipermail/fork/Week-of-Mon-20070219/044101.html')?>.
    I have worked on many different kinds of projects, from
