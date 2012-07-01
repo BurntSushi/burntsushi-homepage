@@ -11,7 +11,7 @@
 <p>I am a
    <a href="http://en.wikipedia.org/wiki/Hacker_(hobbyist)">programmer</a>.
    My current weapons of choice are Python, Go
-   and <?=aurl('Haskell', 'http://www.xent.com/pipermail/fork/Week-of-Mon-20070219/044101.html')?>.
+   and <a href="http://www.xent.com/pipermail/fork/Week-of-Mon-20070219/044101.html">Haskell</a>.
    I have worked on many different kinds of projects, from
    web applications to X11 window managers. More recently, building an
    <?=aurl('X11 window manager', 'x11');?> with good multi-head, tiling and
