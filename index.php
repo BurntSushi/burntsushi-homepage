@@ -1,7 +1,8 @@
 <?php require_once('homepage_header.php'); ?>
 
 <h2>About Me</h2>
-<p>I am a Ph.D. student in the Computer Science department at Tufts University. 
+<p>I am a Ph.D. student in the 
+   <a href="http://www.cs.tufts.edu">Computer Science department at Tufts University</a>.
    My advisor is <a href="http://www.cs.tufts.edu/~cowen/">Lenore Cowen</a>.
    In general, my <?=aurl('research interests', 'research.php');?> are focused 
    on computational biology. I am still searching for a narrower focus, but

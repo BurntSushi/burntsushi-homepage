@@ -3,6 +3,7 @@
 $navs = Array(
   'home' => Array(
     'Research' => $BASE . '/research.php',
+    'CV' => $BASE '/cv.pdf',
     'Personal' => $BASE . '/personal.php',
     'X11' => $BASE . '/x11',
     'Github' => 'https://github.com/BurntSushi'
