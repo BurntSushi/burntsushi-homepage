@@ -102,7 +102,7 @@ $NAV = 'x11';
 <p>Using a workspace-per-monitor model has its down-sides. Namely, it breaks
    <a href="http://standards.freedesktop.org/wm-spec/wm-spec-latest.html">EWMH</a>
    assumption that one and only one workspace is viewable at any time.
-   The consequences of which are that pages no longer work correctly, since
+   The consequences of which are that pagers no longer work correctly, since
    they all assume only one workspace is viewable.</p>
 
 <h2>pager-multihead</h2>
